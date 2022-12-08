@@ -12,7 +12,7 @@
  * 
  * I want to complete this before my
  * exam and after I have completed
- * my studying.
+ * my studying
 */ 
 
 use std::io;
