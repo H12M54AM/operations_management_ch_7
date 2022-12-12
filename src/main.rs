@@ -10,9 +10,6 @@
  * as it can be while accurately giving
  * desired results.
  * 
- * I want to complete this before my
- * exam and after I have completed
- * my studying
 */ 
 
 use std::io;
@@ -34,7 +31,7 @@ impl Capacity_Design {
      * 
      * Outputs answer
      */
-    fn cycle_time(time_availible:String, units:String) {
+    fn cycle_time(&self, time_availible:String, units:String) {
         // Production Time
         let mut temp = String::new();
         println!("\nWhat is the Production Time for this process?");
